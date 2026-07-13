@@ -1,3 +1,4 @@
+Build on the repo https://github.com/adamholter/hive-mind-landing-page
 # Design Agent Kit
 
 A portable frontend-design kit for agents that need to create deliberate, human-quality interfaces instead of reusing one template or aesthetic.
