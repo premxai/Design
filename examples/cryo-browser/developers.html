@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Build with the CRYO browser API, SDK, and MCP server." /><meta name="theme-color" content="#020a12" />
+    <title>CRYO Build — Browser tools with receipts.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Teko:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header compact"><a class="wordmark" href="index.html" aria-label="CRYO home">CRYO</a><p class="node-id">TOOLCHAIN<br />OPEN INTERFACE</p><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">+</span></button><nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="search.html">Search</a><a href="developers.html" aria-current="page">Build</a><a href="agents.html">Delegate</a><a href="index.html#protocol">Protocol</a></nav></header>
+    <main id="main" class="internal-page build-page">
+      <section class="page-intro"><p class="signal-label"><span>02</span> BUILD / WITH RECEIPTS</p><h1>Call the web<br /><em>your way.</em></h1><p>CRYO exposes the browsing layer without turning the browser into a black box. Use the API, SDK, or MCP server.</p></section>
+      <section class="build-layout"><aside class="tool-index"><p>CRYO INTERFACES</p><a href="#api">01 / Browser API</a><a href="#sdk">02 / SDK</a><a href="#mcp">03 / MCP server</a><div class="tool-note">Every request returns source URLs, permission state, and an inspectable trace.</div></aside><div class="integration-panel"><div class="integration-head"><p>QUICK START / <span data-code-language>JAVASCRIPT</span></p><div class="code-tabs" role="tablist"><button class="code-tab active" type="button" role="tab" aria-selected="true" data-code-tab="javascript">SDK</button><button class="code-tab" type="button" role="tab" aria-selected="false" data-code-tab="curl">API</button><button class="code-tab" type="button" role="tab" aria-selected="false" data-code-tab="mcp">MCP</button></div></div><pre data-code-output><code></code></pre><div class="code-foot"><span data-code-caption>Browse with an explicit permission envelope.</span><button class="copy-button" type="button" data-copy-code>Copy snippet</button></div></div></section>
+      <section class="capability-grid"><article id="api"><span>01</span><h2>Browser API</h2><p>Open a page, read its visible content, and return the source ledger with every result.</p><code>GET /v1/browse</code></article><article id="sdk"><span>02</span><h2>SDK</h2><p>Build browse flows with typed permissions instead of hidden automation.</p><code>cryo.browse()</code></article><article id="mcp"><span>03</span><h2>MCP server</h2><p>Give an agent a constrained browsing surface it can explain back to its operator.</p><code>cryo://mcp</code></article></section>
+    </main>
+    <footer class="site-footer"><span>CRYO / BUILD OPENLY</span><span>SDK 0.9.6</span><span>STATUS: <b>FROZEN</b></span></footer><script src="script.js"></script>
+  </body>
+</html>

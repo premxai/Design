@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human-First Frontend"
+  short_description: "Build varied, human-quality UI systems"
+  default_prompt: "Use $human-first-frontend to design a distinct, responsive interface with a fit-for-purpose visual language."

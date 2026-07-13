@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search the CRYO open-web archive." /><meta name="theme-color" content="#020a12" />
+    <title>CRYO Search — Find it yourself.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Teko:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header compact"><a class="wordmark" href="index.html" aria-label="CRYO home">CRYO</a><p class="node-id">SEARCH INDEX<br />HAND-RANKED</p><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">+</span></button><nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="search.html" aria-current="page">Search</a><a href="developers.html">Build</a><a href="agents.html">Delegate</a><a href="index.html#protocol">Protocol</a></nav></header>
+    <main id="main" class="internal-page search-page">
+      <section class="page-intro"><p class="signal-label"><span>01</span> SEARCH / UNPROFILED</p><h1>Find it<br /><em>yourself.</em></h1><p>CRYO does not construct a taste profile. Search the archive, inspect the source, follow the thread.</p></section>
+      <section class="search-console" aria-labelledby="search-label">
+        <form data-search-form><label id="search-label" for="archive-search">ARCHIVE QUERY</label><div class="search-input"><span>⌕</span><input id="archive-search" data-search-input autocomplete="off" value="open web" /><button type="submit">Search</button></div></form>
+        <div class="filter-row" aria-label="Search filters"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All records</button><button class="filter" type="button" data-filter="archive" aria-pressed="false">Archive</button><button class="filter" type="button" data-filter="protocol" aria-pressed="false">Protocol</button><button class="filter" type="button" data-filter="people" aria-pressed="false">People</button></div>
+        <p class="result-count" data-result-count></p>
+      </section>
+      <section class="search-layout"><div class="search-results" data-search-results aria-live="polite"></div><aside class="search-aside"><p class="signal-label"><span>INDEX NOTE</span></p><h2>No invisible<br />ranking.</h2><p>Results are ordered by title match, source age, and explicit archive weight—not by who you are.</p><dl><div><dt>PROFILE</dt><dd>NONE</dd></div><div><dt>TRACKERS</dt><dd>0 FOUND</dd></div><div><dt>MODE</dt><dd>LOCAL DEMO</dd></div></dl></aside></section>
+    </main>
+    <footer class="site-footer"><span>CRYO / SEARCH BY HAND</span><span>QUERY LOG: LOCAL</span><span>STATUS: <b>FROZEN</b></span></footer><script src="script.js"></script>
+  </body>
+</html>
